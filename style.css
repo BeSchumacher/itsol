@@ -1,0 +1,145 @@
+*{
+    font-family: 'Fjalla One', sans-serif;
+    margin:0;
+    padding: 0;
+}
+.smoothie {
+    height: auto;
+    scroll-behavior: smooth;
+  }
+
+.scroller {
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;*/
+  }
+
+nav{
+    font-family: 'Fjalla One', sans-serif;
+    background-color: black;
+    padding-top: 1em;
+    padding-bottom: 1em;  
+}
+
+ul li {
+	/*Wieso inline-block?*/
+    display:inline-block;
+    width: 30%;
+    text-align: center;
+   
+}
+
+ul li a{
+    
+    color: white;
+}
+
+.worker{
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    /*display: inline;
+    margin-left:-295px;
+    margin-top:-150px;
+    padding: 0;*/
+}
+
+
+h1{
+    text-align: center;
+    margin:auto;
+    /*float: none;*/
+}
+
+.text1{
+    font-family: 'Fjalla One', sans-serif;
+    
+    padding-top: 5em;
+    
+}
+
+.text2{
+    clear:both; 
+    font-family: 'Fjalla One', sans-serif;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-top:2em;
+}
+
+.text3{
+    text-align: right;
+    margin-right: 10%;
+}
+
+.icon{
+    margin-top: 1em;
+}
+
+header{
+    background-image:linear-gradient(to left, white, black);
+    text-align: right;
+}                   
+
+#disclaimer{
+	display: block; 
+	background-color: black;
+	color: white;
+	position:fixed;
+}
+
+
+
+#hero{
+    margin-right: 0;
+    display:inline-flex;
+}
+
+#claim{
+    margin-right: 0;
+    display: inline-flex;
+}
+
+#footer {
+    background-color: #f2f2f2;
+    color: black;
+    height: auto;
+   
+    min-width: 500px;
+    
+    margin-top: 2em;
+    border: 0px;
+    
+    
+}
+
+#footer:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#left{
+    box-sizing: border-box;
+    width: 33%;
+    float: left;
+    padding:2em;
+    text-align: justify;
+}
+ #center{
+    box-sizing: border-box;
+    width: 33%;
+    float: left;
+    padding:2em;
+    text-align: justify;
+}
+#right{
+    box-sizing: border-box;
+    width: 33%;
+    float: left;
+    padding:2em;
+    text-align: justify;
+}
+#clear{
+    clear:both;
+}
